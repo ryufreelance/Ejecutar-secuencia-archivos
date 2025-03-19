@@ -29,3 +29,18 @@ Sigue estos pasos para usar el script:
    ```bash
    python --version
 3. Abre el archivo script.py en tu editor de texto o IDE favorito.
+
+---
+
+## Uso
+
+1. Crea una carpeta donde ubicaras los archivos que deseas procesar.
+2. Configura la variable carpeta en el script con la ruta de la carpeta que deseas procesar. Por ejemplo:
+
+    ```python
+    carpeta = r'C:\Users\TuUsuario\Carpeta'
+2. Ejecuta el script desde tu terminal o entorno de desarrollo integrado (IDE):
+
+    ```bash
+    python script.py
+3. El script abrirá cada archivo en la carpeta utilizando las aplicaciones predeterminadas del sistema operativo. Habrá un retraso de 5 segundos entre la apertura de cada archivo, este retraso puedes modificarlo segun la necesidad en la variable `time.sleep(5)`.
